@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 4 Practice - Full Code</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         1. HEADING HIERARCHY (SEO & Structure)
+         ========================================== -->
+    <h1>Mausam's Tech Blog</h1>
+    <h2>Introduction to Web Development</h2>
+    <h3>What is HTML?</h3>
+    <h4>Basic Syntax</h4>
+    <h5>Minor Details</h5>
+    <h6>Footnotes & Disclaimers</h6>
+
+    <!-- Horizontal line for section break -->
+    <hr>
+
+    <!-- ==========================================
+         2. PARAGRAPHS & INLINE FORMATTING
+         ========================================== -->
+    <p>
+        HTML stands for <b>HyperText Markup Language</b>. 
+        It is the <strong>backbone</strong> of any website.
+    </p>
+
+    <p>
+        Learning HTML is <i>simple</i> and <em>effective</em>.<br>
+        This line breaks here using the BR tag.
+    </p>
+
+    <hr>
+
+    <!-- ==========================================
+         3. ANCHOR TAGS (Hyperlinks)
+         ========================================== -->
+    <!-- Same tab open karega (Default) -->
+    <p>
+        <a href="https://www.google.com" target="_self" title="Go to Google">Google (Same Tab)</a>
+    </p>
+
+    <!-- New tab open karega -->
+    <p>
+        <a href="https://www.wikipedia.org" target="_blank" title="Open Wikipedia">Wikipedia (New Tab)</a>
+    </p>
+
+    <hr>
+
+    <!-- ==========================================
+         4. IMAGE TAG (Self-closing with attributes)
+         ========================================== -->
+    <p>Direct Image Display:</p>
+    <img src="https://via.placeholder.com/300x150" alt="Sample 300x150 banner" width="300" height="150">
+
+    <hr>
+
+    <!-- ==========================================
+         5. IMAGE AS A CLICKABLE LINK (Combined)
+         ========================================== -->
+    <p>Click the image below to open Google in a new tab:</p>
+    <a href="https://www.google.com" target="_blank">
+        <img src="https://via.placeholder.com/150" alt="Clickable placeholder icon" width="150" height="150">
+    </a>
+
+    <hr>
+
+    <!-- ==========================================
+         6. BLOCK VS INLINE DEMONSTRATION
+         ========================================== -->
+    <!-- Block elements: Alag alag lines occupy karenge -->
+    <p>Block Element 1</p>
+    <p>Block Element 2</p>
+
+    <!-- Inline elements: Ek hi line me flow karenge -->
+    <a href="#">Inline Link 1</a>
+    <span> | Inline Span Text | </span>
+    <a href="#">Inline Link 2</a>
+
+</body>
+</html>
