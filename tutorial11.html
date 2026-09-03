@@ -2,10 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sementic vs Non Sementic</title>
+    <title>Semantic vs Non-Semantic</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        header, div { border: 2px solid; padding: 15px; margin-bottom: 10px; }
+        header { border-color: green; background: #e8f5e9; } /* Semantic */
+        div { border-color: red; background: #ffebee; }      /* Non-Semantic */
+    </style>
 </head>
 <body>
-    
+
+    <!-- Semantic: Naam se hi pata chal raha hai ki yeh header hai -->
+    <header>
+        <h2>Ye Semantic tag hai (&lt;header&gt;)</h2>
+    </header>
+
+    <!-- Non-Semantic: Iska koi naam nahi hai, yeh sirf ek dabha hai -->
+    <div>
+        <h2>Ye Non-Semantic tag hai (&lt;div&gt;)</h2>
+    </div>
+
 </body>
 </html>
