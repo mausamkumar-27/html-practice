@@ -2,8 +2,14 @@ h1{
     color: green;
     background-color: black;
     font-size: xx-large;
+    margin: 0%;
 }
 h2{
     color:slategray;
     background-color: #d4b473;
+    margin: 0%;
+}
+div{
+    color: blueviolet;
+    margin: 0%;
 }
