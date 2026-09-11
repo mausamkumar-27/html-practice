@@ -1,6 +1,10 @@
 p{
     color:blue;
 }
-#highlight{
+.highlight{
     background-color: pink;
+}
+#unique-para{
+    background-color: orange;
+
 }
