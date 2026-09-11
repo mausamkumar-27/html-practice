@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Complete Practice - Lec 14, 15, 16</title>
+    
+    <!-- 1. Internal CSS (Lecture 14) -->
+    <style>
+        /* Global box-sizing rule (Lecture 16) */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+
+        /* 2. Grouping Selector (Lecture 15) */
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        /* 3. Element Selector (Lecture 15) */
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        /* 4. Class Selector (Lecture 15) */
+        .highlight-box {
+            background-color: pink;
+            font-weight: bold;
+        }
+
+        /* 5. ID Selector (Lecture 15) */
+        #unique-card {
+            background-color: #d4edda;
+            border-color: #c3e6cb;
+        }
+
+        /* 6. Box Model Demonstration (Lecture 16) */
+        .box-demo {
+            width: 350px;
+            height: 180px;
+            padding: 25px;          /* Content aur border ke beech ka gap */
+            border: 6px solid #ff6b6b; /* Box ki outer boundary */
+            margin: 30px auto;      /* Baaki elements se distance aur center alignment */
+            background-color: lightyellow;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Lecture 14: Inline CSS Example -->
+    <h1 style="color: darkblue; text-decoration: underline;">Lecture 14, 15, 16 Combined Practice</h1>
+
+    <!-- Lecture 15: Selectors Example -->
+    <h2>1. Selectors Demo</h2>
+    <p>Ye ek normal paragraph hai (Element Selector target kar raha hai).</p>
+    <p class="highlight-box">Ye class selector wala paragraph hai (.highlight-box).</p>
+    <p id="unique-card">Ye ID selector wala unique paragraph hai (#unique-card).</p>
+
+    <hr style="margin: 40px 0;">
+
+    <!-- Lecture 16: Box Model Example -->
+    <h2>2. Box Model Demo</h2>
+    <div class="box-demo">
+        Is div ke paas width (350px), padding (25px), border (6px), aur margin (30px) hai. Inspect karke iska Box Model zaroor check karna!
+    </div>
+
+</body>
+</html>
