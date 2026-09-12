@@ -16,6 +16,7 @@ p{
 h2{
     text-align: center;
     text-decoration:underline solid red;
-    display: block;
+    display: inblock;
     border: 10px solid grey;
+    width: auto;
 }
