@@ -1,8 +1,12 @@
 p{
     color: rgb(168, 20, 20);
-    
+
 }
 div{
+    *{
+        background-color:blue;
+        margin: 5%;
+    }
     text-transform:uppercase;
 color:brown;
 q{
@@ -18,8 +22,13 @@ cite{
     background-color: maroon;
 }
 }
-h1{
+h1{ 
+    .box{margin: 20px;
+        
+
+    }
     text-align: center;
     text-decoration-line: underline;
     text-decoration-color: blue;
+    
 }
