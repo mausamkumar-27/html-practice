@@ -14,8 +14,13 @@ p{
     background-color: antiquewhite;
 }
 h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: large;
+   font-style: oblique;
+   font-weight:lighter;
+    text-transform: capitalize;
     text-align: center;
-    text-decoration:underline solid red;
+    text-decoration:underline solid blue;
     display: inline-block;
     border: 10px solid grey;
     
