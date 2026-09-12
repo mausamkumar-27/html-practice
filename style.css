@@ -4,6 +4,7 @@ h1{
     border: 6px solid green;
     display:block;
     background-color: lightpink;
+    padding: 200px;
 }
 *{
     box-sizing: border-box;
