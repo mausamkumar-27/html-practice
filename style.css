@@ -2,6 +2,7 @@ p{
     color: rgb(168, 20, 20);
 }
 div{
+    text-transform:uppercase;
 color:brown;
 q{
     background-color: black;
@@ -11,6 +12,9 @@ var{
 font-weight: bold;
 font-style: var();
 font-size: larger;
+}
+cite{
+    background-color: maroon;
 }
 }
 h1{
