@@ -5,7 +5,12 @@ div{
 color:brown;
 q{
     background-color: black;
-    
+}
+var{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+font-style: var();
+font-size: larger;
 }
 }
 h1{
