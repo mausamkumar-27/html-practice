@@ -13,3 +13,9 @@ p{
     display:inline-block;
     background-color: antiquewhite;
 }
+h2{
+    text-align: center;
+    text-decoration:underline solid red;
+    display: inline;
+    border: 10px solid grey;
+}
