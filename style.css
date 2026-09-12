@@ -1,10 +1,15 @@
 h1{
 
     text-align: center;
+    border: 6px solid green;
     display:block;
-    display:inline-block;
     background-color: lightpink;
 }
 *{
     box-sizing: border-box;
+
+}
+p{
+    display:inline-block;
+    background-color: antiquewhite;
 }
