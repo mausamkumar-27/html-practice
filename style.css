@@ -1,14 +1,10 @@
 p{
-    color:blue;
+    color: rgb(168, 20, 20);
 }
-.highlight{
-    background-color: pink;
+div{
+    background-color: chartreuse;
 }
-#unique-para{
-    background-color: orange;
-
-}
-h1,h2,h3{
-    background-color: cyan;
+h1{
     text-align: center;
+    
 }
