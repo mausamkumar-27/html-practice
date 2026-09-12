@@ -1,4 +1,10 @@
 h1{
+
     text-align: center;
     display:block;
+    display:inline-block;
+    background-color: lightpink;
+}
+*{
+    box-sizing: border-box;
 }
