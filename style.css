@@ -18,5 +18,16 @@ h1{
  font-style:italic;
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight:bolder;
+outline: 2px dashed;
+/* height: 100vh; */
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+h1:hover{
+    background-color: #ffeaa7;
+    box-shadow: 4px 10px 20px  blue;
+    cursor:pointer;
 
 }
