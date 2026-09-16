@@ -2,9 +2,9 @@
     box-sizing: border-box;
 }
 h1{
- box-shadow: inset;
- border-radius: 5px;
- border: 6px rgb(181, 38, 62) bold;
+ box: shadow 909px;
+ border-radius: 9px;
+ border: 6px green solid;
  text-align: center;
  text-decoration:dotted;
  background-color: beige;
