@@ -20,9 +20,6 @@ h1{
 font-weight:bolder;
 outline: 2px dashed;
 /* height: 100vh; */
-display: flex;
-justify-content: center;
-align-items: center;
 transition: all 0.3s ease;
 letter-spacing: 0.5px;
 
