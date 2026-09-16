@@ -1,3 +1,8 @@
 *{
-    
+    box-sizing: border-box;
+}
+h1{
+ box-shadow: inset;
+ border-radius: 5px;
+ border: gold bold 6px;
 }
