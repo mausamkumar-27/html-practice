@@ -4,5 +4,12 @@
 h1{
  box-shadow: inset;
  border-radius: 5px;
- border: gold bold 6px;
+ border: 6px rgb(181, 38, 62) bold;
+ text-align: center;
+ text-decoration:dotted;
+ background-color: beige;
+
+}
+.box-demo{
+    background-color: bisque;
 }
