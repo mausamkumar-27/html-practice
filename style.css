@@ -38,5 +38,7 @@ body{
     background-color: #f0f2f5;
 }
 .student-img{
-    size:20px 10px 20px 2px;
+width: 70px;
+height: 90px;
+object-fit: cover;
 }
