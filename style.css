@@ -37,3 +37,6 @@ body{
     align-items:first baseline;
     background-color: #f0f2f5;
 }
+.student-img{
+    size:20px 10px 20px 2px;
+}
