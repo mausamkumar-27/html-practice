@@ -33,3 +33,10 @@ h1:hover{
     cursor:pointer;
 
 }
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items:first baseline;
+    background-color: #f0f2f5;
+}
