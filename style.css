@@ -9,10 +9,11 @@ h1{
 
  
  background-color: beige;
- display: inline;
+ display: inline-block;
  box-shadow: offset-x offset-y blut;
+ margin: 0;
+ padding: 0px 0px 0px 0px;
+ text-transform: uppercase;
+ text-shadow: 10px 10px 10px  ;
 
-}
-.box-demo{
-    background-color: bisque;
 }
