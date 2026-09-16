@@ -9,6 +9,7 @@ h1{
  text-decoration:dotted;
  background-color: beige;
  display: inline;
+ box-shadow: offset-x offset-y blut;
 
 }
 .box-demo{
