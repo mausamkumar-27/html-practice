@@ -2,7 +2,7 @@
     box-sizing: border-box;
     
 }
-h1{
+div{
  box-shadow : 1px 5px 10px 2px  red;
  border-radius: 20px;
  border: 6px green solid;
