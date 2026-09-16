@@ -41,4 +41,5 @@ body{
 width: 70px;
 height: 90px;
 object-fit: cover;
+margin: 6px;
 }
