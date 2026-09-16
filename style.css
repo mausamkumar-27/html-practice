@@ -2,11 +2,12 @@
     box-sizing: border-box;
 }
 h1{
- box: shadow 909px;
+ box-shadow :2px 5px 10px red;
  border-radius: 9px;
  border: 6px green solid;
- text-align: center;
- text-decoration:dotted;
+ text-align:center;
+
+ 
  background-color: beige;
  display: inline;
  box-shadow: offset-x offset-y blut;
