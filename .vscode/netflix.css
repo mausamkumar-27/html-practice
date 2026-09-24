@@ -1,7 +1,6 @@
 .main-back{
     height: 300;
     width: 100%;
-    background-image: url("/Users/mausamkumar/Downloads/Sigma WEB DEV../asset/image/video/logo.svg");
-    background-size: cover;
+    background-image: url("asset/image/video")
 
 }
